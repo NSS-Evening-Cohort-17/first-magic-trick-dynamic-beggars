@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Creepster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC:wght@300&family=Fugaz+One&display=swap');
+
+#mummy__main {
+  background-color: #313131;
+  padding-top: 25px;
+}
+
+.mummy__content {
+    background-color: #313131;
+}
+
+.mummy--main__img {
+  height:30rem;
+  width: 50rem;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border: 5px dotted #6e3a9e;
+  
+}
+
+.mummy__header2 {
+  font-family: 'Creepster', cursive;
+  text-align: center;
+  font-size: 80px;
+  color: white;
+  margin-block-start: .25em;
+  margin-block-end: .50em;
+}
+
+.mummy__sections {
+  display: flex;
+  justify-content: center;
+  justify-content: space-evenly;
+  
+}
+
+.mummy--origin , .mummy--movie , .mummy--costume {
+  border: 3px solid #52ac00;
+  background-color: black;
+  margin-bottom: 15px;
+  width: 400px;
+  padding: 1rem;
+  text-align: center;
+}
+
+.mummy--origin__img , .mummy--movie__img , .mummy--costume__img {
+  height: 200px;
+  width: 300px;
+  margin-top: 15px;
+}
+
+.mummy--origin__header3 , .mummy--movie__header3 , .mummy--costume__header3 {
+  font-family: 'Creepster', cursive;
+  font-size: 48px;
+  color: #f28f1c;
+  margin-block-start: 0.1em;
+  margin-block-end: 0.1em;
+}
+
+.mummy--origin__p , .mummy--movie__p , .mummy--costume__p {
+  color: white;
+  font-family: 'Alegreya Sans SC', sans-serif;
+  font-size: larger;
+}
