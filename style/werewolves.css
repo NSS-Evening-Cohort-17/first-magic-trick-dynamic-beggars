@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Creepster&display=swap');
+
+/* WEREWOLF PAGE */
+h2 {
+    color:#6e3a9e;
+    font-family: 'Creepster', cursive;
+    font-size: 45pt;
+    text-align: center;
+    text-shadow: .5px .5px white;
+}
+
+body {
+    background-color: black;
+  }
+  
+  .reverseText {
+    color: white;
+  }
+   
+  .werewolves-origin {
+    background-color: orange;
+    border: none;
+  }
