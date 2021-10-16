@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Creepster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC:wght@300&family=Fugaz+One&display=swap');
+
+/* html {
+  background-color: #313131;
+} */
+
+#mummy__main {
+  background-color: #313131;
+}
+
+.mummy__content {
+    background-color: #313131;
+    margin-top: 15px;
+    margin-left: 15px;
+}
+
+.mummy--main__img {
+  height:30rem;
+  width: 50rem;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border: 5px dotted #6e3a9e;
+
+}
+
+h1 {
+  font-family: 'Creepster', cursive;;
+}
+
+.mummy__sections {
+  display: flex;
+  justify-content: center;
+  justify-content: space-evenly;
+}
+
+section {
+  border: 3px solid #52ac00;
+  background-color: black;
+  margin-bottom: 15px;
+  width: 400px;
+  padding: 1rem;
+  text-align: center;3
+}
+
+h2 {
+  font-family: 'Creepster', cursive;
+}
+
+.mummy__header1 {
+  font-size: 80px;
+  color: white;
+  margin-block-start: .25em;
+  margin-block-end: .50em;
+  text-align: center;
+}
+
+.mummy--origin__img , .mummy--movie__img , .mummy--costume__img {
+  height: 200px;
+  width: 300px;
+  margin-top: 15px;
+}
+
+.mummy--origin__header2 , .mummy--movie__header2 , .mummy--costume__header2 {
+  font-size: 48px;
+  color: #f28f1c;
+  margin-block-start: 0.1em;
+  margin-block-end: 0.1em;
+}
+
+.mummy--origin__p , .mummy--movie__p , .mummy--costume__p {
+  color: white;
+  font-family: 'Alegreya Sans SC', sans-serif;
+  font-size: larger;
+}
+
+/* LANDING PAGE */
+.landingBody {
+    background-color: black;
+}
+.landingTitle {
+    display: flex;
+    flex-wrap: wrap-reverse;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.landingImg {
+    width: 550px;
+    padding-top: 100px;
+}
+
+h1 {
+    color:#F28F1C;
+    /* font-family: 'Permanent Marker', cursive; */
+    font-family: 'Creepster', cursive;
+    font-size: 90pt;
+    text-align: right;
+    text-shadow: .5px .5px white;
+    width: 650px;
+    padding-top: 100px;
+}
+
+.reverseBodyType {
+    color: white;
+    /* font-family: 'Permanent Marker', cursive; */
+    font-family: 'Creepster', cursive;
+    font-size: 30pt;
+    text-align: right;
+    width: 600px;
+}
