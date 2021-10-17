@@ -1,0 +1,34 @@
+#zombie-app {
+    background-color: black;
+    height: 100vh;
+}
+
+.zombie-header {
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 150px 0;
+    background: linear-gradient(0deg, rgba(255, 0, 150, 0.3), rgba(255, 0, 150, 0.3)), url(../images/zombiePage/zombieHorde.jpg);
+    background-size: contain;
+}
+
+.zombie-h1 {
+    color: #F28F1C;
+    font-family: 'Creepster', cursive;
+    font-size: 90pt;
+}
+
+.zombie-h1-quotes {
+    font-size: 1.5rem;
+}
+
+.zombie-author {
+    margin-left: 300px;
+}
+
+.zombie-h1-quotes{
+    font-family: 'Roboto', cursive;
+    font-weight: 300;
+    font-size: 27px;
+}
