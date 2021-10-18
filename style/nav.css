@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Butcherman&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Creepster&display=swap');
 
+
 * {
     padding: 0;
     margin: 0;
@@ -56,42 +57,3 @@ a:hover {
 .halloween-nav-list li a {
     text-decoration: none;
 }
-
-
-
-/* LANDING PAGE */
-.landingBody {
-    background-color: black;
-}
-.landingTitle {
-    display: flex;
-    flex-wrap: wrap-reverse;
-    flex-direction: row;
-    justify-content: space-evenly;
-}
-
-.landingImg {
-    width: 550px;
-    padding-top: 100px;
-}
-
-h1 {
-    color:#F28F1C;
-    /* font-family: 'Permanent Marker', cursive; */
-    font-family: 'Creepster', cursive;
-    font-size: 90pt;
-    text-align: right;
-    text-shadow: .5px .5px white;
-    width: 650px;
-    padding-top: 200px;
-}
-
-.reverseBodyType {
-    color: white;
-    /* font-family: 'Permanent Marker', cursive; */
-    font-family: 'Creepster', cursive;
-    font-size: 30pt;
-    text-align: right;
-    width: 600px;
-}
-
