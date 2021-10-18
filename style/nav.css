@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Butcherman&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Creepster&display=swap');
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* Halloween Navigation */
+a {
+    text-decoration: none;
+    color: #f28f1c;
+    font-size: 1.5rem;
+    font-weight: 500;
+    display: inline-block;
+    letter-spacing: 2px;
+    transition: all 0.5s;
+    font-family: 'creepster', cursive;
+    text-shadow: 4px 2px 3px #52ac00;
+}
+
+a:hover {
+    color: #52ac00;
+    text-shadow: 2px 2px 5px #6e3a9e;
+}
+
+/* #app {
+    background-color: darkgray;
+    height: 100vh;
+} */
+
+.halloween-nav {
+    display: flex;
+    justify-content: space-between;
+    background-color: #000;
+    /* background-image: url(../images/halloweenBackground.jpg); */
+    border-bottom: 5px solid orange;
+    padding: 30px;
+}
+
+.halloween-nav-list {
+    display: flex;
+    margin: 0 10px 0 0;
+}
+
+.halloween-nav-list span {
+    border: 1px solid #52ac00;
+}
+
+.halloween-nav-list li {
+    margin: 0 5px;
+    list-style: none;
+}
+
+.halloween-nav-list li a {
+    text-decoration: none;
+}
