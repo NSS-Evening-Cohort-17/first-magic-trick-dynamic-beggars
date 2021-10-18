@@ -1,6 +1,8 @@
-#zombie-app {
-    background-color: black;
-    height: 100vh;
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color: white;
 }
 
 .zombie-header {
@@ -31,4 +33,55 @@
     font-family: 'Roboto', cursive;
     font-weight: 300;
     font-size: 27px;
+}
+
+.zombie-container {
+    /* height: 100vh; */
+}
+
+.zombie-origin {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: black;
+}
+
+.origin-header {
+    margin-top: 150px;
+    font-family: 'Creepster', cursive;
+    font-size: 3rem;
+    color: #6e3a9e;
+    letter-spacing: 2px;
+    text-shadow: 0 0 7px #fff, 
+    0 0 1px #fff, 
+    0 0 1px #fff, 
+    0 0 1px #0fa, 
+    0 0 7px #0fa, 
+    0 0 9px #0fa, 
+    0 0 10px #0fa, 
+    0 0 12px #0fa;
+}
+
+.origin-p-group {
+    margin: 50px 0 150px 0px;
+}
+.origin-paragraph {
+    width: 740px;
+    font-family: 'Roboto', sans-serif;
+    line-height: 25px;
+    letter-spacing: 1px;
+}
+
+.p1 {
+    margin: 0 0 25px 0;
+}
+
+
+.origin-link {
+    color: blue;
+    font-family: 'Roboto', cursive;
+    text-shadow: none;
+    font-size: 15px;
+    text-decoration: underline;
+    margin-top: 5px;
 }
