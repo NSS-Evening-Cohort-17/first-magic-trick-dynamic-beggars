@@ -1,13 +1,44 @@
 @import url('https://fonts.googleapis.com/css2?family=Creepster&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC:wght@300&family=Fugaz+One&display=swap');
 
+@keyframes blink {
+  0% {
+    background: #151818;
+  }
+  25% {
+    background: #6e3a9e;
+  }
+  50% {
+    background: #f28f1c;
+  }
+  75% {
+    background: #52ac00;
+  }
+  90% {
+    background: #313131;
+  } 
+  100% {
+    background: #151818;
+  }
+}
+
+body {
+  height: 100%;
+}
+
 #mummy__main {
-  background-color: #313131;
   padding-top: 25px;
+  background-image: url(https://wallpaperaccess.com/full/1454449.jpg); 
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #6e3a9e;
+  background-blend-mode: darken;
 }
 
 .mummy__content {
-    background-color: #313131;
+    text-align: center;
 }
 
 .mummy--main__img {
@@ -16,23 +47,28 @@
   display: block;
   margin-left: auto;
   margin-right: auto;
-  border: 5px dotted #6e3a9e;
-  
+  border: 5px dotted #52ac00;
 }
 
 .mummy__header2 {
+  display: inline-block;
   font-family: 'Creepster', cursive;
-  text-align: center;
-  font-size: 80px;
-  color: white;
+  font-size: 7rem;
+  background: rgb(108,57,156);
+  background: linear-gradient(90deg, rgba(108,57,156,1) 0%, rgba(108,57,156,1) 23%, rgba(242,143,28,1) 50%, rgba(82,172,0,1) 75%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
   margin-block-start: .25em;
   margin-block-end: .50em;
+  -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
 }
 
 .mummy__sections {
   display: flex;
   justify-content: center;
   justify-content: space-evenly;
+  flex-wrap: wrap;
   
 }
 
@@ -43,6 +79,8 @@
   width: 400px;
   padding: 1rem;
   text-align: center;
+  animation: blink 20s infinite;
+  -webkit-animation: blink 20s infinite;
 }
 
 .mummy--origin__img , .mummy--movie__img , .mummy--costume__img {
@@ -57,10 +95,37 @@
   color: #f28f1c;
   margin-block-start: 0.1em;
   margin-block-end: 0.1em;
+  -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
 }
 
 .mummy--origin__p , .mummy--movie__p , .mummy--costume__p {
   color: white;
   font-family: 'Alegreya Sans SC', sans-serif;
   font-size: larger;
+  margin: 10px 5px 5px 5px;
+  height: 12rem;
+}
+.mummy--origin__button , .mummy--movie__button , .mummy--costume__button {
+  font-family: 'Creepster', cursive;
+  background-color: #6e3a9e;
+  color: white;
+  font-size: 2em;
+  padding: 10px;
+  margin-top: 10px;
+  border: none;
+  border-radius: 8px;
+  transition-duration: 0.4s;
+  display:inline-flex;
+}
+
+.mummy--origin__button:hover , .mummy--movie__button:hover , .mummy--costume__button:hover {
+  background-color: #52ac00; /* Green */
+  color: white;
+}
+
+.mummy--movie__p span {
+  display: block;
+  margin: 12px 0;
+
 }
