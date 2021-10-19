@@ -7,6 +7,10 @@
     color: white;
 }
 
+body {
+    background-color: #000;
+}
+
 .zombie-header {
     background-color: black;
     display: flex;
@@ -104,4 +108,28 @@
 .honorable-mention img {
     width: 200px;
     height: 275px;
+}
+/* Favorite Film Section */
+.film-header {
+    text-align: center;
+    margin: 150px 0 80px 0;
+    font-family: 'Alegreya SC';
+    font-size: 4rem;
+}
+
+.favorite-film {
+    display: flex;
+    margin: 0 50px 115px 50px;
+}
+
+.film-info {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    margin: 0 50px;
+}
+
+.film-release {
+    align-self: center;
+    position: absolute;
 }
