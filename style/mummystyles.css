@@ -27,7 +27,7 @@ body {
 }
 
 #mummy__main {
-  padding-top: 25px;
+  padding-top: 1.5625rem;
   background-image: url(https://wallpaperaccess.com/full/1454449.jpg); 
   height: 100%;
   background-position: center;
@@ -47,7 +47,8 @@ body {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  border: 5px dotted #52ac00;
+  border: 0.3125rem dotted #52ac00;
+  border-radius: 1.25rem;
 }
 
 .mummy__header2 {
@@ -60,7 +61,7 @@ body {
   -webkit-text-fill-color: transparent;
   margin-block-start: .25em;
   margin-block-end: .50em;
-  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-width: 0.06rem;
     -webkit-text-stroke-color: black;
 }
 
@@ -69,63 +70,76 @@ body {
   justify-content: center;
   justify-content: space-evenly;
   flex-wrap: wrap;
-  
 }
 
-.mummy--origin , .mummy--movie , .mummy--costume {
-  border: 3px solid #52ac00;
+.mummy--origin , 
+.mummy--movie , 
+.mummy--costume {
+  border: 	0.25rem solid #52ac00;
   background-color: black;
-  margin-bottom: 15px;
-  width: 400px;
-  padding: 1rem;
+  margin-bottom: 0.625rem;
+  width: 25rem;
+  padding-bottom: 1rem;
   text-align: center;
   animation: blink 20s infinite;
   -webkit-animation: blink 20s infinite;
+  border-radius: 1.25rem;
 }
 
-.mummy--origin__img , .mummy--movie__img , .mummy--costume__img {
-  height: 200px;
-  width: 300px;
-  margin-top: 15px;
+.mummy--origin__img , 
+.mummy--movie__img , 
+.mummy--costume__img {
+  height: 12.5rem;
+  width: 18.75rem;
+  margin-top: 0.625rem;
 }
 
-.mummy--origin__header3 , .mummy--movie__header3 , .mummy--costume__header3 {
+.mummy--origin__header3 , 
+.mummy--movie__header3 , 
+.mummy--costume__header3 {
   font-family: 'Creepster', cursive;
-  font-size: 48px;
+  font-size: 3rem;
   color: #f28f1c;
   margin-block-start: 0.1em;
   margin-block-end: 0.1em;
-  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-width: 0.063rem;
     -webkit-text-stroke-color: black;
 }
 
-.mummy--origin__p , .mummy--movie__p , .mummy--costume__p {
+.mummy--origin__p , 
+.mummy--movie__p , 
+.mummy--costume__p {
   color: white;
   font-family: 'Alegreya Sans SC', sans-serif;
   font-size: larger;
-  margin: 10px 5px 5px 5px;
+  margin: 0.625rem 0.313rem 0.313rem 0.313rem;
   height: 12rem;
 }
-.mummy--origin__button , .mummy--movie__button , .mummy--costume__button {
+
+.mummy--origin__button , 
+.mummy--movie__button , 
+.mummy--costume__button {
   font-family: 'Creepster', cursive;
   background-color: #6e3a9e;
   color: white;
   font-size: 2em;
-  padding: 10px;
-  margin-top: 10px;
-  border: none;
-  border-radius: 8px;
+  padding: 0.625rem;
+  margin-top: 0.625rem;
+  border: 0.125rem solid white;
+  border-radius: 0.5rem;
   transition-duration: 0.4s;
   display:inline-flex;
 }
 
-.mummy--origin__button:hover , .mummy--movie__button:hover , .mummy--costume__button:hover {
+.mummy--origin__button:hover , 
+.mummy--movie__button:hover , 
+.mummy--costume__button:hover {
   background-color: #52ac00; /* Green */
   color: white;
 }
 
 .mummy--movie__p span {
   display: block;
-  margin: 12px 0;
+  margin: 0.75rem 0;
 
 }
