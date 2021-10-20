@@ -7,6 +7,10 @@
     color: white;
 }
 
+body {
+    background-color: #000;
+}
+
 .zombie-header {
     background-color: black;
     display: flex;
@@ -95,13 +99,81 @@
     margin-top: 5px;
 }
 
+/* Favorite Film Section */
+.film-header {
+    text-align: center;
+    margin: 150px 0 80px 0;
+    font-family: 'Creepster', cursive;
+    font-size: 4rem;
+    color: #F28F1C;
+}
+
+.favorite-film {
+    display: flex;
+    margin: 0 50px 115px 50px;
+}
+
+.film-info {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    margin: 0 50px;
+}
+
+.film-title h3, .film-release h3, .film-description h3 {
+    font-family: 'Creepster', cursive;
+    margin-bottom: 10px;
+    color: #F28F1C;
+}
+
+.film-release {
+    align-self: center;
+    position: absolute;
+}
+
+.film-bio {
+    margin-top: 25px;
+}
+
+.film-description {
+    height: 500px;
+    margin-top: 150px;
+}
+
+.film-description p, .film-title p, .film-release p {
+    font-size: 1.1rem;
+    letter-spacing: .5px;
+    word-spacing: 2px;
+    line-height: 1.5rem;
+}
+
+.filler-div {
+    background-color: white;
+    height: 300px;
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#000000+0,000000+26,000000+35,6e3a9e+68,6e3a9e+68,6e3a9e+83,6e3a9e+83,6e3a9e+100&0+0,0.65+100 */
+    background: -moz-linear-gradient(top,  rgba(0,0,0,0) 0%, rgba(0,0,0,0.17) 26%, rgba(0,0,0,0.23) 35%, rgba(110,58,158,0.44) 68%, rgba(110,58,158,0.54) 83%, rgba(110,58,158,0.65) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top,  rgba(0,0,0,0) 0%,rgba(0,0,0,0.17) 26%,rgba(0,0,0,0.23) 35%,rgba(110,58,158,0.44) 68%,rgba(110,58,158,0.54) 83%,rgba(110,58,158,0.65) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom,  rgba(0,0,0,0) 0%,rgba(0,0,0,0.17) 26%,rgba(0,0,0,0.23) 35%,rgba(110,58,158,0.44) 68%,rgba(110,58,158,0.54) 83%,rgba(110,58,158,0.65) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#a66e3a9e',GradientType=0 ); /* IE6-9 */
+
+}
+/* Honorable-mention */
 .honorable-mention {
     display: flex;
     justify-content: space-evenly;
-    border: 1px solid red;
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#000000+0,6e3a9e+7&0+0,0.65+100 */
+    background: rgba(110,58,158,0.65);
+    padding: 50px 0;
 }
 
 .honorable-mention img {
     width: 200px;
     height: 275px;
+    transition: height 0.5s;
+}
+
+.honorable-mention img:hover {
+    width: 250px;
+    height: 325px;
+    margin-bottom: 15px;
 }
