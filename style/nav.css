@@ -26,6 +26,11 @@ a:hover {
     text-shadow: 2px 2px 5px #6e3a9e;
 }
 
+.halloween-logo img {
+    height: 50px;
+    width: 50px;
+}
+
 /* #app {
     background-color: darkgray;
     height: 100vh;
