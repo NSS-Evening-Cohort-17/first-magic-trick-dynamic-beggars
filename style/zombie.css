@@ -158,6 +158,28 @@ body {
 
 }
 /* Honorable-mention */
+/* .honor-img {
+    background-color: #fff;
+    color: #ffffff;
+    font-size: 16px;
+    margin: 10px;
+    max-width: 315px;
+    min-width: 230px;
+    overflow: hidden;
+    position: relative;
+    text-align: left;
+    width: 100%;
+    transform: translateZ(0);
+} */
+
+.honorable-header {
+    text-align: center;
+    font-size: 11rem;
+    font-family: 'Creepster';
+    color: #F28F1C;
+    padding: 150px 0 25px 0;
+}
+
 .honorable-mention {
     display: flex;
     justify-content: space-evenly;
@@ -169,11 +191,17 @@ body {
 .honorable-mention img {
     width: 200px;
     height: 275px;
-    transition: height 0.5s;
+    transition: .6s ease;
 }
 
 .honorable-mention img:hover {
-    width: 250px;
-    height: 325px;
-    margin-bottom: 15px;
+    transform: scale(1.2);
+    transition: .6s ease;
+}
+
+.honorable-mention figcaption {
+    font-size: 1.2rem;
+    font-family: 'Alegreya SC';
+    text-align: center;
+    margin-bottom: 55px;
 }
