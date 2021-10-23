@@ -106,6 +106,7 @@ body {
     font-family: 'Creepster', cursive;
     font-size: 4rem;
     color: #F28F1C;
+    letter-spacing: 1.3;
 }
 
 .favorite-film {
@@ -124,6 +125,8 @@ body {
     font-family: 'Creepster', cursive;
     margin-bottom: 10px;
     color: #F28F1C;
+    font-size: 1.5rem;
+    letter-spacing: 1.3px
 }
 
 .film-release {
@@ -174,7 +177,7 @@ body {
 
 .honorable-header {
     text-align: center;
-    font-size: 11rem;
+    font-size: 4rem;
     font-family: 'Creepster';
     color: #F28F1C;
     padding: 150px 0 25px 0;
@@ -200,8 +203,9 @@ body {
 }
 
 .honorable-mention figcaption {
-    font-size: 1.2rem;
-    font-family: 'Alegreya SC';
+    font-size: 1.5rem;
+    font-family: 'Creepster';
     text-align: center;
+    letter-spacing: 1px;
     margin-bottom: 55px;
 }
