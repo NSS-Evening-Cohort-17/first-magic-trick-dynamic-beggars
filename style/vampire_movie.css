@@ -1,0 +1,32 @@
+body {
+    background-image:url('https://images.alphacoders.com/243/243573.jpg'); 
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1 {
+    color:red;
+    font-size:85px;
+    text-align: center;
+}
+
+.vampire_origin_article {
+display:flex;
+flex-direction: row;
+flex-wrap: wrap;
+justify-content: space-evenly;
+}
+
+.vampire_origin_div {
+    background-color: black;
+    border: 1px solid red;
+    text-align:center;
+    width:400px;
+    height:600px;
+    overflow:hidden;
+}
+
+p {
+    color:white;
+    font-size: 30px;
+}

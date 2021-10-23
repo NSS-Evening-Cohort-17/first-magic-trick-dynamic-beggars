@@ -1,0 +1,31 @@
+body {
+    background-image:url('https://media1.giphy.com/media/Md4xDdpxyaGJ9Kors3/giphy.gif?cid=ecf05e472qro4826dzvrlujclygndzysfb2clregrc7i9514&rid=giphy.gif&ct=g'); 
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1 {
+    color:red;
+    font-size:85px;
+}
+
+.vampire_origin_div {
+    border: 1px solid red;
+    text-align:center;
+    width:400px;
+    height:300px;
+    overflow:hidden
+}
+
+.vampire_origin_enzyme{
+    border: 1px solid red;
+    text-align:center;
+    width:400px;
+    height:300px;
+    overflow:hidden
+}
+
+p {
+    color:white;
+    font-size: 30px;
+}
